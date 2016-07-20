@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <script src="js/jquery.js"></script>
+    <script src="js/typed.js"></script>
 
     <title>Ben's Montana Guide Service</title>
 
@@ -75,20 +77,17 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                ~~~ javascript
-<script src="/js/jquery.js"></script>
-<script src="/js/typed.js"></script>
-<script>
-	$(function(){
-		$(".element").typed({
-			strings: ["First sentence.", "Second sentence."],
-			typeSpeed: 0
-		});
-	});
-</script>
+                <script>
+	               $(function(){
+		              $(".element").typed({
+			         strings: ["hi.", "hi again."],
+			         typeSpeed: 0
+		          });
+	           });
+                </script>
 ...
 
-<div claass="intro-lead-in"><span class="element">this is my test. two.</span></div>
+<div claass="intro-lead-in">Find your water in <span id="typed"></span></div>
                 
                 <div class="intro-heading">Let Ben be your guide</div>
                 <a href="#services" class="page-scroll btn btn-xl">Find out More</a>

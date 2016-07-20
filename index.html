@@ -75,7 +75,21 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Explore the secret fishing spots of Montana</div>
+                ~~~ javascript
+<script src="/js/jquery.js"></script>
+<script src="/js/typed.js"></script>
+<script>
+	$(function(){
+		$(".element").typed({
+			strings: ["First sentence.", "Second sentence."],
+			typeSpeed: 0
+		});
+	});
+</script>
+...
+
+<div claass="intro-lead-in"><span class="element">this is my test. two.</span></div>
+                
                 <div class="intro-heading">Let Ben be your guide</div>
                 <a href="#services" class="page-scroll btn btn-xl">Find out More</a>
             </div>
